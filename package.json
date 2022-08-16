@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
 
-    "serve": "esbuild src/index.ts --servedir=www --outdir=www/js --bundle"
+    "serve": "esbuild src/index.ts --servedir=www --outdir=www/js --bundle",
+	"build": "esbuild src/index.ts --outdir=www/js --bundle"
   },
   "author": "",
   "license": "ISC",
