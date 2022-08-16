@@ -1,0 +1,15 @@
+{
+  "name": "sportkuss.frontend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+
+    "serve": "esbuild src/index.ts --servedir=www --outdir=www/js --bundle"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.14.48"
+  }
+}

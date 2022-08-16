@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+ 
+    <title>Page Title</title>
+    <style>
+        body {
+           
+        background: -webkit-linear-gradient(left, #1a66ff, #25b7c4);
+        background: linear-gradient(to right, #3a69cf, #13e0f3);
+        font-family: 'Roboto', sans-serif;
+          font-family: Arial;
+          margin: 0;
+          --app-blue-light: #b8cfff;
+          --app-blue: #1a66ff;
+          --app-red-light: #ffbfb8;
+          --app-red: #b33d3d;
+          --app-gray : #9da3af;
+        }
+        
+        /* Header/Logo Title */
+        .header {
+          padding: 20px;
+          text-align: center;
+          background: var(--app-red);
+          color: white;
+          font-size: 30px;
+        }
+        .uebung{
+            text-align: left;
+            font-family: Arial;
+            font-size: 25px; 
+            color:#1abc9c;
+            
+        }
+        h2{
+            font-family: Arial;
+            color: white;
+            font-size: 50px;
+            padding-left: 20px;
+            padding-bottom: 30px;
+        }
+        #herz{
+            fill:var(--app-red-light);
+        }
+        section{
+    margin: 150px;
+        }
+        
+        
+        /* Page Content */
+        .content {padding:20px;}
+        </style>
+    <script type="module" src="/js/index.js"></script>
+</head>
+<body>
+    <div class="header">
+
+    <center><h1>SPORTKUSS <sportkuss-herz></sportkuss-herz> </h1>
+
+
+    <strong><motivation-zeile></motivation-zeile></center></strong>
+    </div>
+    <section>
+    <div class="uebung">
+  
+        <h2>Aufgaben Liste</h2>
+        <aufgaben-liste id="aufgaben-liste"></aufgaben-liste>
+        <aufgaben-link id="aufgaben-link"></aufgaben-link>
+    </div>
+</section>
+<script defer>
+    
+    let url = new URL( window.location.href);
+    let uebung = url.searchParams.get("uebungen")
+    let cut = uebung.split(",");
+    let ids= cut.map(Number);
+    let aufgabenliste = document.getElementById("aufgaben-liste")
+    let aufgabenlink = document.getElementById("aufgaben-link")
+    window.customElements.whenDefined("aufgaben-liste").then(() =>{
+        aufgabenliste.selected = ids;
+    });
+    window.customElements.whenDefined("aufgaben-link").then(() =>{
+        aufgabenlink.selected = new Set(ids);
+     });
+        
+
+    
+    
+    
+    
+
+
+    
+</script>
+
+
+</body>
+</html> 
