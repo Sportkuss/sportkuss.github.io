@@ -47,30 +47,21 @@ td{
         <th>Schwer:</th>
       </tr>
     </thead>
-    
-    
       <tbody id="uebungentbody">
-      
       </tbody>
-      
     </table> 
     </div>
   </div>
-  
-  
 </div>
 
 
 
 
 `
-
-
 function _td(text: string): HTMLTableDataCellElement {
   let td = document.createElement('td')
   td.innerText = text
   return td
-  
 }
 
 class UebungList extends HTMLElement {
@@ -80,10 +71,7 @@ class UebungList extends HTMLElement {
     super()
     let root = this.attachShadow({ mode: 'open' })
     root.append(template.content.cloneNode(true))
-
     let uebungentbody = root.getElementById("uebungentbody") as HTMLTableSectionElement
-    
-
     let uebungen = defaultUebungen()
     for (let i = 0; i < uebungen.length; i++) {
       let u = uebungen[i]
@@ -91,10 +79,9 @@ class UebungList extends HTMLElement {
       let checkbox = document.createElement('input')
       checkbox.type = "checkbox"
       let tdcheckbox = document.createElement('td')
+
       tdcheckbox.appendChild(checkbox)
       tr.appendChild(tdcheckbox)
-
-      
       tr.appendChild(_td(u.name))
       tr.appendChild(_td(u.leicht.toString()))
       tr.appendChild(_td(u.mittel.toString()))
@@ -112,14 +99,9 @@ class UebungList extends HTMLElement {
       this.dispatchEvent(new Event("selected", { /*composed: true */}))
       });
 
-
     }
    
-
   }
-
-
-
 
 }
 

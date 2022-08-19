@@ -18,11 +18,9 @@ a {
     position: relative;
     overflow: hidden;
   }
-  
   button:hover {
     box-shadow: 1px 1px 10px 5px #b33d3d;
   }
-  
   button:before {
     content: "";
     position: absolute;
@@ -38,14 +36,21 @@ a {
     );
     transition: all 650ms;
   }
-  
   button:hover:before {
     left: 100%;
   }
+  #text{
+    font-size: 11px;
+    margin: 0;
+    color: white;
+  }
   </style>
-<div id="buttonlink">
+  <div id="buttonlink">
     <button id="copyurl">Kopieren</button>
     <a id="link"> </a>
+    <br> </br>
+    <sportkuss-github> </sportkuss-github>
+    <p id="text">Github link</p>
   </div>
 `
 class AufgabenLink extends HTMLElement{
@@ -54,28 +59,24 @@ class AufgabenLink extends HTMLElement{
         this._selected = v;
         let root = this.shadowRoot;
         let link = root.getElementById("link") as HTMLAnchorElement
-
+        
         let url = new URL("/aufgabe/", window.location.href);
         url.searchParams.set("uebungen", [...this._selected].join(","))
         link.href = url.href;
         link.innerText = url.href
-
         let copy = root.getElementById("copyurl") as HTMLButtonElement
-   
         copy.addEventListener("click", () => {
           let selection = window.getSelection()
-          
           selection.selectAllChildren(link)
           document.execCommand("copy")
-          
         });
+        
+       
     }
     constructor(){
         super()
         let root = this.attachShadow({mode : 'open'})
         root.appendChild(template.content.cloneNode(true))
-        
-    
     }
 }
 customElements.define("aufgaben-link", AufgabenLink)
