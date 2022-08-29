@@ -27,35 +27,32 @@
           color: white;
           font-size: 30px;
         }
-        .uebung{
-            text-align: left;
-            font-family: Arial;
-            font-size: 25px; 
-            color:#1abc9c;
-            
-        }
+
         h2{
             font-family: Arial;
             color: white;
             font-size: 50px;
-            padding-left: 20px;
-            padding-bottom: 30px;
+            margin-left: 20px;
+            margin-bottom: 0px;
         }
+
         #herz{
             fill:var(--app-red-light);
         }
-        section{
-    margin: 150px;
+        #list{
+            padding-left: 30px;
+            padding-bottom: 10px;
         }
-        
-        
-        /* Page Content */
+        .uebung{
+            margin: 0px;
+        }
         .content {padding:20px;}
         </style>
     <script type="module" src="/js/index.js"></script>
     
 </head>
 <body>
+    
     <div class="header">
 
     <center><h1>SPORTKUSS <sportkuss-herz></sportkuss-herz> </h1>
@@ -65,12 +62,14 @@
     </div>
     <section>
     <div class="uebung">
-  
-        <h2>Übungs Liste</h2>
+
+    <h2>Übungs Liste </h2> <popup-ex id="info"></popup-ex>
+    </div>
+        <div id="list">
     <uebung-list id="uebung-list"></uebung-list>
     <aufgaben-link id="aufgaben-link"></aufgaben-link>
+        </div>
     
-    </div>
 </section>
 <script>
     let uebunglist = document.getElementById("uebung-list")

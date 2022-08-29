@@ -3,41 +3,36 @@ import { defaultUebungen } from "./uebung";
 var template = document.createElement('template') as HTMLTemplateElement;
 template.innerHTML = `
 <style>
-
-
 table{
-  width:100%;
-  table-layout: fixed;
+  border: 1px solid rgba(255,255,255,0.3);
+  table-layout: auto;
+  width:80%;
 }
  th{
+  
   background-color: rgba(255,255,255,0.3);
   padding: 20px 15px;
   text-align: left;
   font-weight: 500;
   font-size: 30px;
   color: #fff;
-  text-transform: uppercase;
 }
 td{
-  
-  padding: 15px;
+  padding: 3px;
   text-align: left;
-  vertical-align:middle;
   font-weight: 300;
   font-size: 20px;
   color: #fff;
   border-bottom: solid 1px rgba(255,255,255,0.1);
 }
-#content{
-  overflow-x:auto;
-  margin-top: 0px;
-  border: 1px solid rgba(255,255,255,0.3);
+#check{
+  filter: hue-rotate(120deg)
 }
+
 </style>
 <div class="container">
 <div id="content">
     <table cellpadding="0" cellspacing="0" border="0">
-
     <thead>
       <tr>
         <th></th>
@@ -53,10 +48,6 @@ td{
     </div>
   </div>
 </div>
-
-
-
-
 `
 function _td(text: string): HTMLTableDataCellElement {
   let td = document.createElement('td')
@@ -77,6 +68,7 @@ class UebungList extends HTMLElement {
       let u = uebungen[i]
       let tr = document.createElement('tr') as HTMLTableRowElement;
       let checkbox = document.createElement('input')
+      checkbox.id = "check"
       checkbox.type = "checkbox"
       let tdcheckbox = document.createElement('td')
 

@@ -27,7 +27,7 @@ export function defaultUebungen(): Uebung[] {
     u2.leicht = 20
     u2.mittel = 40
     u2.schwer = 80
-    u2.beschreibung = "Bei der ersten Übungsvariante befinden sich deine Arme über deinem Kopf."+ "\n" + " Nun spannst du deine Muskulatur an und hebst Beine sowie Oberkörper an. "+ "\n" + "Diese Bewegung geschieht gleichzeitig. Am höchsten Punkt stoppst du und hältst die Körperspannung einige Sekunden. "+ "\n" + "Anschließend senkst du die Glieder wieder auf den Boden zurück, um dich für den nächsten Durchgang bereit zu machen."
+    u2.beschreibung = "Lege dich bäuchlings auf den Boden. Bei der ersten Übungsvariante befinden sich deine Arme über deinem Kopf."+ "\n" + " Nun spannst du deine Muskulatur an und hebst Beine sowie Oberkörper an. "+ "\n" + "Diese Bewegung geschieht gleichzeitig. Am höchsten Punkt stoppst du und hältst die Körperspannung einige Sekunden. "+ "\n" + "Anschließend senkst du die Glieder wieder auf den Boden zurück, um dich für den nächsten Durchgang bereit zu machen."
     uebungen.push(u2)
     let u3 = new Uebung();
     u3.id = 3
@@ -67,7 +67,7 @@ export function defaultUebungen(): Uebung[] {
     u7.leicht = 10
     u7.mittel = 15
     u7.schwer = 20
-    u7.beschreibung = " Beuge die Knie und schiebe das Gesäß leicht nach hinten, bis sich die Oberschenkel in etwa in der Waagerechten befinden, jedoch so, dass die Knie nicht über die Zehenspitzen hinaus stehen."+ "\n" + " Der Rücken bleibt bei herausgedrückter Brust gerade. Atme währenddessen ein. "+ "\n" + "Strecke die Beine in die Ausgangssituation zurück und atme aus. "+ "\n" + "Die Beine bzw. die Knie dürfen dabei nicht vollständig durchgedrückt werden."
+    u7.beschreibung = " Füße etwas weiter als schulterbreit voneinander entfernt aufstellen. Beuge die Knie und schiebe das Gesäß leicht nach hinten, bis sich die Oberschenkel in etwa in der Waagerechten befinden, jedoch so, dass die Knie nicht über die Zehenspitzen hinaus stehen."+ "\n" + " Der Rücken bleibt bei herausgedrückter Brust gerade. Atme währenddessen ein. "+ "\n" + "Strecke die Beine in die Ausgangssituation zurück und atme aus. "+ "\n" + "Die Beine bzw. die Knie dürfen dabei nicht vollständig durchgedrückt werden."
     uebungen.push(u7)
     let u8 = new Uebung();
     u8.id = 8
@@ -83,7 +83,7 @@ export function defaultUebungen(): Uebung[] {
     u9.leicht = 10
     u9.mittel = 15
     u9.schwer = 20
-    u9.beschreibung = "Zum Beginn der Übung bewegst du den Oberkörper nach oben. Dabei hältst du die beiden Hände beispielsweise vor deinem Kopf. Die Arme befinden sich tendenziell neben deinem Körper."+ "\n" + " Bei der Aufwärtsbewegung atmest du aus und solltest darauf achten, dass der Rücken keinen zu starken Buckel macht."+ "\n" + " Die Kraft sollte einzig und allein aus dem Bauch stammen. Nur der Oberkörper bewegt sich."+ "\n" + " Unterstützung durch die Oberschenkel oder eine schwungartige Bewegung sollten unterbleiben."+ "\n" + " Wenn der Körper aufrecht ist, bist du in der Endposition angekommen. Beim Einatmen kehrst du nun langsam in die Ausgangsposition zurück."
+    u9.beschreibung = "In der Grundposition liegst du auf dem Rücken und winkelst deine Beine im 90 Grad Winkel an. Zum Beginn der Übung bewegst du den Oberkörper nach oben. Dabei hältst du die beiden Hände beispielsweise vor deinem Kopf. Die Arme befinden sich tendenziell neben deinem Körper."+ "\n" + " Bei der Aufwärtsbewegung atmest du aus und solltest darauf achten, dass der Rücken keinen zu starken Buckel macht."+ "\n" + " Die Kraft sollte einzig und allein aus dem Bauch stammen. Nur der Oberkörper bewegt sich."+ "\n" + " Unterstützung durch die Oberschenkel oder eine schwungartige Bewegung sollten unterbleiben."+ "\n" + " Wenn der Körper aufrecht ist, bist du in der Endposition angekommen. Beim Einatmen kehrst du nun langsam in die Ausgangsposition zurück."
     uebungen.push(u9)
     let u10 = new Uebung();
     u10.id = 10
@@ -91,7 +91,7 @@ export function defaultUebungen(): Uebung[] {
     u10.leicht = 10
     u10.mittel = 15
     u10.schwer = 20
-    u10.beschreibung = "Um mit dieser Variante des klassischen Beinheben im Liegen zu beginnen, hebst du die Beine senkrecht nach oben. Die Beine sind dabei nicht vollständig ausgestreckt. Allerdings solltest du den Po leicht in die Luft bewegen, um den Muskelreiz zu erzeugen bzw. zu verstärken."+ "\n" + "  Dein Oberkörper, Kopf und Nacken bewegen sich nicht. Spanne deinen Bauch an und senke im Anschluss die Beine wieder langsam nach unten ab. Du führst die Abwärtsbewegung so weit fort, dass du deinen unteren Rücken noch auf dem Boden halten kannst."+ "\n" + " Deine Beine können dann ganz kurz den Boden berühren. Dabei atmest du langsam aus. Im Anschluss atmest du ein und fängst mit der Übung wieder von vorne an."
+    u10.beschreibung = "Ausgangsposition: im Liegen , hebst du die Beine senkrecht nach oben. Die Beine sind dabei nicht vollständig ausgestreckt. Allerdings solltest du den Po leicht in die Luft bewegen, um den Muskelreiz zu erzeugen bzw. zu verstärken."+ "\n" + "  Dein Oberkörper, Kopf und Nacken bewegen sich nicht. Spanne deinen Bauch an und senke im Anschluss die Beine wieder langsam nach unten ab. Du führst die Abwärtsbewegung so weit fort, dass du deinen unteren Rücken noch auf dem Boden halten kannst."+ "\n" + " Deine Beine können dann ganz kurz den Boden berühren. Dabei atmest du langsam aus. Im Anschluss atmest du ein und fängst mit der Übung wieder von vorne an."
     uebungen.push(u10)
     let u11 = new Uebung();
     u11.id = 11
@@ -99,7 +99,7 @@ export function defaultUebungen(): Uebung[] {
     u11.leicht = 30
     u11.mittel = 40
     u11.schwer = 60
-    u11.beschreibung = "Um mit den klassischen Flutter Kicks zu beginnen, hebst du zunächst ein Bein nach oben. Das untere Bein schwebt weiterhin parallel über dem Boden. Die Streckung der Beine bleibt die ganze Zeit bestehen. Der Ausschlag der Beine hängt zudem von deinem Wohlgefühl ab. Hier gibt es keine festen Regeln. Du solltest immer darauf achten, dass du die Bewegung kontrolliert und mit Spannung in der Bauchmuskulatur ausführst. Dies ist deutlich wichtiger als ein großer Radius. Im Anschluss hebst du das andere Bein nach oben, während du die entgegengesetzte Seite absenkst."
+    u11.beschreibung = "Ausgangsposition: Du legst gerade auf den Rücken. Um mit den klassischen Flutter Kicks zu beginnen, hebst du zunächst ein Bein nach oben. Das untere Bein schwebt weiterhin parallel über dem Boden. Die Streckung der Beine bleibt die ganze Zeit bestehen. Der Ausschlag der Beine hängt zudem von deinem Wohlgefühl ab. Hier gibt es keine festen Regeln. Du solltest immer darauf achten, dass du die Bewegung kontrolliert und mit Spannung in der Bauchmuskulatur ausführst. Dies ist deutlich wichtiger als ein großer Radius. Im Anschluss hebst du das andere Bein nach oben, während du die entgegengesetzte Seite absenkst."
     uebungen.push(u11)
     let u12 = new Uebung();
     u12.id = 12
@@ -107,7 +107,7 @@ export function defaultUebungen(): Uebung[] {
     u12.leicht = 20
     u12.mittel = 25
     u12.schwer = 40
-    u12.beschreibung = "Nun beginnst du mit der Übung, indem du deinen Oberkörper zu einer Seite drehst. Der Unterkörper sollte bei dieser Bewegung starr in der Mitte bleiben. Die Bewegung stammt einzig und allein aus dem Oberkörper. Im Anschluss kehrst du in die Ausgangsposition zurück und drehst den Oberkörper nun in die andere Richtung."+ "\n" + " Dabei musst du allerdings gar nicht in der Mitte verharren, sondern kannst die Bewegung auch problemlos fließend ausüben."
+    u12.beschreibung = "Ausgangsposition: Du legst dich mit dem Rücken auf den Boden. Deine Beine winkelst du vor dir an. Nun beginnst du mit der Übung, indem du deinen Oberkörper zu einer Seite drehst. Der Unterkörper sollte bei dieser Bewegung starr in der Mitte bleiben. Die Bewegung stammt einzig und allein aus dem Oberkörper. Im Anschluss kehrst du in die Ausgangsposition zurück und drehst den Oberkörper nun in die andere Richtung."+ "\n" + " Dabei musst du allerdings gar nicht in der Mitte verharren, sondern kannst die Bewegung auch problemlos fließend ausüben."
     uebungen.push(u12)
     let u13 = new Uebung();
     u13.id = 13
@@ -155,7 +155,7 @@ export function defaultUebungen(): Uebung[] {
     u18.leicht = 10
     u18.mittel = 15
     u18.schwer = 20
-    u18.beschreibung = "Mit der breiten Handstellung lässt du deinen Körper voller Spannung nach unten sinken, während du ausatmest."+ "\n" + " Du stoppst kurz, bevor dein Körper den Boden berührt. Beim Ausatmen drückst du dich wieder nach oben, bis die Ellenbogen nur noch leicht gebeugt sind."
+    u18.beschreibung = "Ausgangsposition: Liegestützposition. Mit der breiten Handstellung lässt du deinen Körper voller Spannung nach unten sinken, während du ausatmest."+ "\n" + " Du stoppst kurz, bevor dein Körper den Boden berührt. Beim Ausatmen drückst du dich wieder nach oben, bis die Ellenbogen nur noch leicht gebeugt sind."
     uebungen.push(u18)
     let u19 = new Uebung();
     u19.id = 19
@@ -163,7 +163,7 @@ export function defaultUebungen(): Uebung[] {
     u19.leicht = 10
     u19.mittel = 15
     u19.schwer = 20
-    u19.beschreibung = "Du hebst deinen Oberkörper leicht an, sodass sich Kopf und Schultern in der Luft befinden. Dabei achtest du darauf, dass in deiner Bauchmuskulatur Muskelspannung entsteht. Zunächst bewegst du nun deinen Oberkörper in eine Richtung."+ "\n" + " Deine Arme befindet sich an der Seite deines Körpers und schweben leicht angehoben in der Luft."+ "\n" + " Du bewegst deine Hände in Richtung deiner Füße, sodass die Fingerspitzen bestenfalls die Ferse berühren."+ "\n" + " Im Anschluss ziehst du den Oberkörper wieder zurück und drehst den Körper in die andere Richtung."+ "\n" + " Abwechselnd sollte immer ein Arm in Richtung deiner Fersen gelangen."
+    u19.beschreibung = "Ausgangsposition: Du legst dich mit dem Rücken auf den Boden. Deine Beine winkelst du vor dir an.Du hebst deinen Oberkörper leicht an, sodass sich Kopf und Schultern in der Luft befinden. Dabei achtest du darauf, dass in deiner Bauchmuskulatur Muskelspannung entsteht. Zunächst bewegst du nun deinen Oberkörper in eine Richtung."+ "\n" + " Deine Arme befindet sich an der Seite deines Körpers und schweben leicht angehoben in der Luft."+ "\n" + " Du bewegst deine Hände in Richtung deiner Füße, sodass die Fingerspitzen bestenfalls die Ferse berühren."+ "\n" + " Im Anschluss ziehst du den Oberkörper wieder zurück und drehst den Körper in die andere Richtung."+ "\n" + " Abwechselnd sollte immer ein Arm in Richtung deiner Fersen gelangen."
     uebungen.push(u19)
     let u20 = new Uebung();
     u20.id = 20
@@ -203,7 +203,7 @@ export function defaultUebungen(): Uebung[] {
     u24.leicht = 10
     u24.mittel = 15
     u24.schwer = 20
-    u24.beschreibung = "Nun beginnst du mit der Übung, indem du beim Ausatmen den Oberkörper aufrichtest und deine Beine anhebst. "+ "\n" + "Die Hände ziehen hier durch die Mitte deiner Beine in Richtung des Bodens. Du kannst die Bewegung so weit wie möglich ausführen. Im Anschluss kehrst du in die Ausgangsposition zurück, während du tief Luft holst."+ "\n" + " Bei der gesamten Übung hältst du deinen Rücken gerade. Reduziere lieber den Bewegungsradius, anstatt einen Rundrücken zu machen."
+    u24.beschreibung = "Ausgangsposition: Du legst gerade auf den Rücken. Nun beginnst du mit der Übung, indem du beim Ausatmen den Oberkörper aufrichtest und deine Beine anhebst. "+ "\n" + "Die Hände ziehen hier durch die Mitte deiner Beine in Richtung des Bodens. Du kannst die Bewegung so weit wie möglich ausführen. Im Anschluss kehrst du in die Ausgangsposition zurück, während du tief Luft holst."+ "\n" + " Bei der gesamten Übung hältst du deinen Rücken gerade. Reduziere lieber den Bewegungsradius, anstatt einen Rundrücken zu machen."
     uebungen.push(u24)
     return uebungen;
 }

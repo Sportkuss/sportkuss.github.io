@@ -106,7 +106,7 @@ class AufgabenList extends HTMLElement{
 
             li.appendChild(_li(u.name))
             li.appendChild(_li(schwierigkeit))
-            li.appendChild(_lidetail("Details", u.beschreibung.toString(), u.gif))
+            li.appendChild(_lidetail("Details", u.beschreibung.toString()))
             ol.appendChild(li)
         });
         let back = root.getElementById("back") as HTMLButtonElement
