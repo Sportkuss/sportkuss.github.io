@@ -83,7 +83,7 @@
     u2.leicht = 20;
     u2.mittel = 40;
     u2.schwer = 80;
-    u2.beschreibung = "Bei der ersten \xDCbungsvariante befinden sich deine Arme \xFCber deinem Kopf.\n Nun spannst du deine Muskulatur an und hebst Beine sowie Oberk\xF6rper an. \nDiese Bewegung geschieht gleichzeitig. Am h\xF6chsten Punkt stoppst du und h\xE4ltst die K\xF6rperspannung einige Sekunden. \nAnschlie\xDFend senkst du die Glieder wieder auf den Boden zur\xFCck, um dich f\xFCr den n\xE4chsten Durchgang bereit zu machen.";
+    u2.beschreibung = "Lege dich b\xE4uchlings auf den Boden. Bei der ersten \xDCbungsvariante befinden sich deine Arme \xFCber deinem Kopf.\n Nun spannst du deine Muskulatur an und hebst Beine sowie Oberk\xF6rper an. \nDiese Bewegung geschieht gleichzeitig. Am h\xF6chsten Punkt stoppst du und h\xE4ltst die K\xF6rperspannung einige Sekunden. \nAnschlie\xDFend senkst du die Glieder wieder auf den Boden zur\xFCck, um dich f\xFCr den n\xE4chsten Durchgang bereit zu machen.";
     uebungen.push(u2);
     let u3 = new Uebung();
     u3.id = 3;
@@ -123,7 +123,7 @@
     u7.leicht = 10;
     u7.mittel = 15;
     u7.schwer = 20;
-    u7.beschreibung = " Beuge die Knie und schiebe das Ges\xE4\xDF leicht nach hinten, bis sich die Oberschenkel in etwa in der Waagerechten befinden, jedoch so, dass die Knie nicht \xFCber die Zehenspitzen hinaus stehen.\n Der R\xFCcken bleibt bei herausgedr\xFCckter Brust gerade. Atme w\xE4hrenddessen ein. \nStrecke die Beine in die Ausgangssituation zur\xFCck und atme aus. \nDie Beine bzw. die Knie d\xFCrfen dabei nicht vollst\xE4ndig durchgedr\xFCckt werden.";
+    u7.beschreibung = " F\xFC\xDFe etwas weiter als schulterbreit voneinander entfernt aufstellen. Beuge die Knie und schiebe das Ges\xE4\xDF leicht nach hinten, bis sich die Oberschenkel in etwa in der Waagerechten befinden, jedoch so, dass die Knie nicht \xFCber die Zehenspitzen hinaus stehen.\n Der R\xFCcken bleibt bei herausgedr\xFCckter Brust gerade. Atme w\xE4hrenddessen ein. \nStrecke die Beine in die Ausgangssituation zur\xFCck und atme aus. \nDie Beine bzw. die Knie d\xFCrfen dabei nicht vollst\xE4ndig durchgedr\xFCckt werden.";
     uebungen.push(u7);
     let u8 = new Uebung();
     u8.id = 8;
@@ -139,7 +139,7 @@
     u9.leicht = 10;
     u9.mittel = 15;
     u9.schwer = 20;
-    u9.beschreibung = "Zum Beginn der \xDCbung bewegst du den Oberk\xF6rper nach oben. Dabei h\xE4ltst du die beiden H\xE4nde beispielsweise vor deinem Kopf. Die Arme befinden sich tendenziell neben deinem K\xF6rper.\n Bei der Aufw\xE4rtsbewegung atmest du aus und solltest darauf achten, dass der R\xFCcken keinen zu starken Buckel macht.\n Die Kraft sollte einzig und allein aus dem Bauch stammen. Nur der Oberk\xF6rper bewegt sich.\n Unterst\xFCtzung durch die Oberschenkel oder eine schwungartige Bewegung sollten unterbleiben.\n Wenn der K\xF6rper aufrecht ist, bist du in der Endposition angekommen. Beim Einatmen kehrst du nun langsam in die Ausgangsposition zur\xFCck.";
+    u9.beschreibung = "In der Grundposition liegst du auf dem R\xFCcken und winkelst deine Beine im 90 Grad Winkel an. Zum Beginn der \xDCbung bewegst du den Oberk\xF6rper nach oben. Dabei h\xE4ltst du die beiden H\xE4nde beispielsweise vor deinem Kopf. Die Arme befinden sich tendenziell neben deinem K\xF6rper.\n Bei der Aufw\xE4rtsbewegung atmest du aus und solltest darauf achten, dass der R\xFCcken keinen zu starken Buckel macht.\n Die Kraft sollte einzig und allein aus dem Bauch stammen. Nur der Oberk\xF6rper bewegt sich.\n Unterst\xFCtzung durch die Oberschenkel oder eine schwungartige Bewegung sollten unterbleiben.\n Wenn der K\xF6rper aufrecht ist, bist du in der Endposition angekommen. Beim Einatmen kehrst du nun langsam in die Ausgangsposition zur\xFCck.";
     uebungen.push(u9);
     let u10 = new Uebung();
     u10.id = 10;
@@ -147,7 +147,7 @@
     u10.leicht = 10;
     u10.mittel = 15;
     u10.schwer = 20;
-    u10.beschreibung = "Um mit dieser Variante des klassischen Beinheben im Liegen zu beginnen, hebst du die Beine senkrecht nach oben. Die Beine sind dabei nicht vollst\xE4ndig ausgestreckt. Allerdings solltest du den Po leicht in die Luft bewegen, um den Muskelreiz zu erzeugen bzw. zu verst\xE4rken.\n  Dein Oberk\xF6rper, Kopf und Nacken bewegen sich nicht. Spanne deinen Bauch an und senke im Anschluss die Beine wieder langsam nach unten ab. Du f\xFChrst die Abw\xE4rtsbewegung so weit fort, dass du deinen unteren R\xFCcken noch auf dem Boden halten kannst.\n Deine Beine k\xF6nnen dann ganz kurz den Boden ber\xFChren. Dabei atmest du langsam aus. Im Anschluss atmest du ein und f\xE4ngst mit der \xDCbung wieder von vorne an.";
+    u10.beschreibung = "Ausgangsposition: im Liegen , hebst du die Beine senkrecht nach oben. Die Beine sind dabei nicht vollst\xE4ndig ausgestreckt. Allerdings solltest du den Po leicht in die Luft bewegen, um den Muskelreiz zu erzeugen bzw. zu verst\xE4rken.\n  Dein Oberk\xF6rper, Kopf und Nacken bewegen sich nicht. Spanne deinen Bauch an und senke im Anschluss die Beine wieder langsam nach unten ab. Du f\xFChrst die Abw\xE4rtsbewegung so weit fort, dass du deinen unteren R\xFCcken noch auf dem Boden halten kannst.\n Deine Beine k\xF6nnen dann ganz kurz den Boden ber\xFChren. Dabei atmest du langsam aus. Im Anschluss atmest du ein und f\xE4ngst mit der \xDCbung wieder von vorne an.";
     uebungen.push(u10);
     let u11 = new Uebung();
     u11.id = 11;
@@ -155,7 +155,7 @@
     u11.leicht = 30;
     u11.mittel = 40;
     u11.schwer = 60;
-    u11.beschreibung = "Um mit den klassischen Flutter Kicks zu beginnen, hebst du zun\xE4chst ein Bein nach oben. Das untere Bein schwebt weiterhin parallel \xFCber dem Boden. Die Streckung der Beine bleibt die ganze Zeit bestehen. Der Ausschlag der Beine h\xE4ngt zudem von deinem Wohlgef\xFChl ab. Hier gibt es keine festen Regeln. Du solltest immer darauf achten, dass du die Bewegung kontrolliert und mit Spannung in der Bauchmuskulatur ausf\xFChrst. Dies ist deutlich wichtiger als ein gro\xDFer Radius. Im Anschluss hebst du das andere Bein nach oben, w\xE4hrend du die entgegengesetzte Seite absenkst.";
+    u11.beschreibung = "Ausgangsposition: Du legst gerade auf den R\xFCcken. Um mit den klassischen Flutter Kicks zu beginnen, hebst du zun\xE4chst ein Bein nach oben. Das untere Bein schwebt weiterhin parallel \xFCber dem Boden. Die Streckung der Beine bleibt die ganze Zeit bestehen. Der Ausschlag der Beine h\xE4ngt zudem von deinem Wohlgef\xFChl ab. Hier gibt es keine festen Regeln. Du solltest immer darauf achten, dass du die Bewegung kontrolliert und mit Spannung in der Bauchmuskulatur ausf\xFChrst. Dies ist deutlich wichtiger als ein gro\xDFer Radius. Im Anschluss hebst du das andere Bein nach oben, w\xE4hrend du die entgegengesetzte Seite absenkst.";
     uebungen.push(u11);
     let u12 = new Uebung();
     u12.id = 12;
@@ -163,7 +163,7 @@
     u12.leicht = 20;
     u12.mittel = 25;
     u12.schwer = 40;
-    u12.beschreibung = "Nun beginnst du mit der \xDCbung, indem du deinen Oberk\xF6rper zu einer Seite drehst. Der Unterk\xF6rper sollte bei dieser Bewegung starr in der Mitte bleiben. Die Bewegung stammt einzig und allein aus dem Oberk\xF6rper. Im Anschluss kehrst du in die Ausgangsposition zur\xFCck und drehst den Oberk\xF6rper nun in die andere Richtung.\n Dabei musst du allerdings gar nicht in der Mitte verharren, sondern kannst die Bewegung auch problemlos flie\xDFend aus\xFCben.";
+    u12.beschreibung = "Ausgangsposition: Du legst dich mit dem R\xFCcken auf den Boden. Deine Beine winkelst du vor dir an. Nun beginnst du mit der \xDCbung, indem du deinen Oberk\xF6rper zu einer Seite drehst. Der Unterk\xF6rper sollte bei dieser Bewegung starr in der Mitte bleiben. Die Bewegung stammt einzig und allein aus dem Oberk\xF6rper. Im Anschluss kehrst du in die Ausgangsposition zur\xFCck und drehst den Oberk\xF6rper nun in die andere Richtung.\n Dabei musst du allerdings gar nicht in der Mitte verharren, sondern kannst die Bewegung auch problemlos flie\xDFend aus\xFCben.";
     uebungen.push(u12);
     let u13 = new Uebung();
     u13.id = 13;
@@ -211,7 +211,7 @@
     u18.leicht = 10;
     u18.mittel = 15;
     u18.schwer = 20;
-    u18.beschreibung = "Mit der breiten Handstellung l\xE4sst du deinen K\xF6rper voller Spannung nach unten sinken, w\xE4hrend du ausatmest.\n Du stoppst kurz, bevor dein K\xF6rper den Boden ber\xFChrt. Beim Ausatmen dr\xFCckst du dich wieder nach oben, bis die Ellenbogen nur noch leicht gebeugt sind.";
+    u18.beschreibung = "Ausgangsposition: Liegest\xFCtzposition. Mit der breiten Handstellung l\xE4sst du deinen K\xF6rper voller Spannung nach unten sinken, w\xE4hrend du ausatmest.\n Du stoppst kurz, bevor dein K\xF6rper den Boden ber\xFChrt. Beim Ausatmen dr\xFCckst du dich wieder nach oben, bis die Ellenbogen nur noch leicht gebeugt sind.";
     uebungen.push(u18);
     let u19 = new Uebung();
     u19.id = 19;
@@ -219,7 +219,7 @@
     u19.leicht = 10;
     u19.mittel = 15;
     u19.schwer = 20;
-    u19.beschreibung = "Du hebst deinen Oberk\xF6rper leicht an, sodass sich Kopf und Schultern in der Luft befinden. Dabei achtest du darauf, dass in deiner Bauchmuskulatur Muskelspannung entsteht. Zun\xE4chst bewegst du nun deinen Oberk\xF6rper in eine Richtung.\n Deine Arme befindet sich an der Seite deines K\xF6rpers und schweben leicht angehoben in der Luft.\n Du bewegst deine H\xE4nde in Richtung deiner F\xFC\xDFe, sodass die Fingerspitzen bestenfalls die Ferse ber\xFChren.\n Im Anschluss ziehst du den Oberk\xF6rper wieder zur\xFCck und drehst den K\xF6rper in die andere Richtung.\n Abwechselnd sollte immer ein Arm in Richtung deiner Fersen gelangen.";
+    u19.beschreibung = "Ausgangsposition: Du legst dich mit dem R\xFCcken auf den Boden. Deine Beine winkelst du vor dir an.Du hebst deinen Oberk\xF6rper leicht an, sodass sich Kopf und Schultern in der Luft befinden. Dabei achtest du darauf, dass in deiner Bauchmuskulatur Muskelspannung entsteht. Zun\xE4chst bewegst du nun deinen Oberk\xF6rper in eine Richtung.\n Deine Arme befindet sich an der Seite deines K\xF6rpers und schweben leicht angehoben in der Luft.\n Du bewegst deine H\xE4nde in Richtung deiner F\xFC\xDFe, sodass die Fingerspitzen bestenfalls die Ferse ber\xFChren.\n Im Anschluss ziehst du den Oberk\xF6rper wieder zur\xFCck und drehst den K\xF6rper in die andere Richtung.\n Abwechselnd sollte immer ein Arm in Richtung deiner Fersen gelangen.";
     uebungen.push(u19);
     let u20 = new Uebung();
     u20.id = 20;
@@ -259,7 +259,7 @@
     u24.leicht = 10;
     u24.mittel = 15;
     u24.schwer = 20;
-    u24.beschreibung = "Nun beginnst du mit der \xDCbung, indem du beim Ausatmen den Oberk\xF6rper aufrichtest und deine Beine anhebst. \nDie H\xE4nde ziehen hier durch die Mitte deiner Beine in Richtung des Bodens. Du kannst die Bewegung so weit wie m\xF6glich ausf\xFChren. Im Anschluss kehrst du in die Ausgangsposition zur\xFCck, w\xE4hrend du tief Luft holst.\n Bei der gesamten \xDCbung h\xE4ltst du deinen R\xFCcken gerade. Reduziere lieber den Bewegungsradius, anstatt einen Rundr\xFCcken zu machen.";
+    u24.beschreibung = "Ausgangsposition: Du legst gerade auf den R\xFCcken. Nun beginnst du mit der \xDCbung, indem du beim Ausatmen den Oberk\xF6rper aufrichtest und deine Beine anhebst. \nDie H\xE4nde ziehen hier durch die Mitte deiner Beine in Richtung des Bodens. Du kannst die Bewegung so weit wie m\xF6glich ausf\xFChren. Im Anschluss kehrst du in die Ausgangsposition zur\xFCck, w\xE4hrend du tief Luft holst.\n Bei der gesamten \xDCbung h\xE4ltst du deinen R\xFCcken gerade. Reduziere lieber den Bewegungsradius, anstatt einen Rundr\xFCcken zu machen.";
     uebungen.push(u24);
     return uebungen;
   }
@@ -268,41 +268,36 @@
   var template3 = document.createElement("template");
   template3.innerHTML = `
 <style>
-
-
 table{
-  width:100%;
-  table-layout: fixed;
+  border: 1px solid rgba(255,255,255,0.3);
+  table-layout: auto;
+  width:80%;
 }
  th{
+  
   background-color: rgba(255,255,255,0.3);
   padding: 20px 15px;
   text-align: left;
   font-weight: 500;
   font-size: 30px;
   color: #fff;
-  text-transform: uppercase;
 }
 td{
-  
-  padding: 15px;
+  padding: 3px;
   text-align: left;
-  vertical-align:middle;
   font-weight: 300;
   font-size: 20px;
   color: #fff;
   border-bottom: solid 1px rgba(255,255,255,0.1);
 }
-#content{
-  overflow-x:auto;
-  margin-top: 0px;
-  border: 1px solid rgba(255,255,255,0.3);
+#check{
+  filter: hue-rotate(120deg)
 }
+
 </style>
 <div class="container">
 <div id="content">
     <table cellpadding="0" cellspacing="0" border="0">
-
     <thead>
       <tr>
         <th></th>
@@ -318,10 +313,6 @@ td{
     </div>
   </div>
 </div>
-
-
-
-
 `;
   function _td(text) {
     let td = document.createElement("td");
@@ -340,6 +331,7 @@ td{
         let u = uebungen[i];
         let tr = document.createElement("tr");
         let checkbox = document.createElement("input");
+        checkbox.id = "check";
         checkbox.type = "checkbox";
         let tdcheckbox = document.createElement("td");
         tdcheckbox.appendChild(checkbox);
@@ -549,7 +541,7 @@ button:hover:before {
         schwierigkeit = " " + u.leicht.toString() + ", " + u.mittel.toString() + ", " + u.schwer.toString() + "; ";
         li.appendChild(_li(u.name));
         li.appendChild(_li(schwierigkeit));
-        li.appendChild(_lidetail("Details", u.beschreibung.toString(), u.gif));
+        li.appendChild(_lidetail("Details", u.beschreibung.toString()));
         ol.appendChild(li);
       });
       let back = root.getElementById("back");
@@ -589,6 +581,127 @@ button:hover:before {
     }
   };
   customElements.define("sportkuss-github", SportkussGithub);
+
+  // src/Popup.ts
+  var template7 = document.createElement("template");
+  template7.innerHTML = `
+<style>
+
+#popup{
+    background:rgba(0,0,0,.4);
+    cursor:pointer;
+    display:none;
+    height:100%;
+    position:fixed;
+    text-align:center;
+    top:0;
+    width:100%;
+    z-index:10000;
+}
+#popup .helper{
+    display:inline-block;
+    height:100%;
+    vertical-align:middle;
+}
+#popup > div {
+  background: linear-gradient(to right, #3a69cf, #13e0f3);
+    box-shadow: 10px 10px 60px #555;
+    display: inline-block;
+    height: auto;
+    max-width: 551px;
+    min-height: 100px;
+    vertical-align: middle;
+    width: 100%;
+    position: relative;
+    border-radius: 8px;
+}
+#close {
+    background-color: var(--app-red);
+    border: 3px solid #999;
+    border-radius: 50px;
+    cursor: pointer;
+    display: inline-block;
+    font-family: arial;
+    font-weight: bold;
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    font-size: 25px;
+    line-height: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+}
+#close:hover {
+    background-color: #ccc;
+}
+button {
+    background-color: transparent;
+    border-radius: 30px;
+    height: 30px;
+    width: 80px;
+    border: 2px solid #b33d3d;
+    position: relative;
+    overflow: hidden;
+  }
+  button:hover {
+    box-shadow: 1px 1px 10px 5px #b33d3d;
+  }
+  button:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      #b33d3d,
+      transparent
+    );
+    transition: all 650ms;
+  }
+  button:hover:before {
+    left: 100%;
+  }
+  #openbutton{
+      margin: 20px;
+  }
+  br{
+    display: block;
+    margin-bottom: 1em;
+
+  }
+</style>
+<button id="openbutton" >Info</button>
+
+<div id="popup">
+    <span class="helper"></span>
+    <div>
+        <div id="close" >&times;</div>
+        <p>Kurze Erkl\xE4rung<br />\xDCbungen ausw\xE4hlen! <br />Auf den Link klicken und schwieigkeits level selbst w\xE4hlen <br />Selber die \xDCbungen machen oder deinem Freund oder Kollgen schicken <br /> Viel Spa\xDF! </p>
+    </div>
+</div>
+
+`;
+  var Popup = class extends HTMLElement {
+    constructor() {
+      super();
+      let root = this.attachShadow({ mode: "open" });
+      root.append(template7.content.cloneNode(true));
+      let openbutton = this.shadowRoot.getElementById("openbutton");
+      let popup = this.shadowRoot.getElementById("popup");
+      let close = this.shadowRoot.getElementById("close");
+      openbutton.addEventListener("click", () => {
+        popup.style.display = "block";
+      });
+      close.addEventListener("click", () => {
+        popup.style.display = "none";
+      });
+    }
+  };
+  customElements.define("popup-ex", Popup);
 
   // src/index.ts
   var date = new Date();
